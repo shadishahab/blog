@@ -13,7 +13,6 @@ class Post(models.Model):
     tags = models.ManyToManyField(
         'Tag',
         related_name='posts',
-        on_delete = models.DO_NOTHING,
         blank=True
         )
     written_by = models.ForeignKey(
@@ -36,7 +35,7 @@ class Comment(models.Model):
         )
     written_by = models.ForeignKey(
         settings.AUTH_USER_MODEL,
-        related_name='posts',
+        related_name='comments',
         on_delete=models.CASCADE
         )
     def __str__(self):

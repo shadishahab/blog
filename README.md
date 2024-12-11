@@ -1,9 +1,9 @@
 ## Table of Contents:
-- [Features](url)
-- [Technologies Used](url)
-- [Installation and Running](url)
-- [Testing](url)
-- [API Endpoints](url)
+- [Features](https://github.com/shadishahab/blog#features)
+- [Technologies Used](https://github.com/shadishahab/blog#technologies-used)
+- [Installation and Running](https://github.com/shadishahab/blog#installation)
+- [Testing](https://github.com/shadishahab/blog#testing)
+- [API Endpoints](https://github.com/shadishahab/blog#api-endpoints)
 
 ## Features
 - CRUD operations for posts and comments.

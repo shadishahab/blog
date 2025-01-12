@@ -80,5 +80,5 @@ python manage.py test core.tests.PostModelTests
 - **GET** `/core/post/<post_id>/comments/`: Retrieve all comments for a post. (Post owner, admin)
 
 ## Auth Endpoints
-- **POST** `/auth/token/`: Obtain a JWT token.
-- **POST** `/auth/token/refresh/`: Refresh a JWT token.
+- **POST** `/api/token/`: Obtain a JWT token.
+- **POST** `/api/token/refresh/`: Refresh a JWT token.
